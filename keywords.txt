@@ -1,0 +1,24 @@
+#	####################################################
+#	СИНТАКСИЧЕСКАЯ РАСКРАСКА ДЛЯ БИБИЛИОТЕКИ:
+#	iarduino_I2C_ORP
+#	####################################################
+#	ТИПЫ ДАННЫХ:							   (KEYWORD1)
+	iarduino_I2C_ORP	KEYWORD1
+#	####################################################
+#	МЕТОДЫ И ФУНКЦИИ:						   (KEYWORD2)
+	begin	KEYWORD2
+	changeAddress	KEYWORD2
+	reset	KEYWORD2
+	getAddress	KEYWORD2
+	getVersion	KEYWORD2
+	getPullI2C	KEYWORD2
+	setPullI2C	KEYWORD2
+	getCalibration	KEYWORD2
+	setCalibration	KEYWORD2
+	getKnownEh	KEYWORD2
+	setKnownEh	KEYWORD2
+	getK	KEYWORD2
+	setK	KEYWORD2
+	getVin	KEYWORD2
+	getVout	KEYWORD2
+	getEh	KEYWORD2
