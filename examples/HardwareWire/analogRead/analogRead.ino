@@ -1,5 +1,9 @@
 // ПРИМЕР ЧТЕНИЯ ДАННЫХ С АНАЛОГОВОГО ВХОДА:        // * Строки со звёздочкой являются необязательными.
                                                     //
+// ORP-метр, FLASH-I2C:                             //   https://iarduino.ru/shop/Sensory-Datchiki/orp-metr-flash-i2c.html
+// Информация о подключении модулей к шине I2C:     //   https://wiki.iarduino.ru/page/i2c_connection/
+// Информация о модуле и описание библиотеки:       //   https://wiki.iarduino.ru/page/orp-flash/
+                                                    //
 float K = 1;                                        //   Поправочный коэффициент (значение по умолчанию).
                                                     //
 void setup(){                                       //
@@ -16,7 +20,8 @@ void loop(){                                        //
      delay(1000);                                   //
 }                                                   //
                                                     //
-/*   Значения K и Vout можно прочитать по шине I2C. //
+/*   Значения K и Vout можно прочитать по шине I2C  //
+ *   используя библиотеку iarduino_I2C_ORP:         //
  *   float K    = sensor.getK();                    //
  *   float Vout = sensor.getVout();                 //
  *   float Eh   = sensor.getEh();                   //
